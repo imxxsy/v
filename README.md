@@ -31,7 +31,7 @@ bash mtproxy.sh stop
 bash mtproxy.sh restart
 ```
 
-####卸载
+卸载
 
 因为是绿色版卸载极其简单，直接删除程序目录即可
 ```
@@ -39,11 +39,11 @@ rm -rf /home/mtproxy
 ```
 开机启动
 编辑 /etc/rc.local 开机自启服务文件，将如下代码添加到开机自启脚本中；
-# 编辑自启文件
+编辑自启文件
 ```
 vi /etc/rc.local
 ```
-# 添加代码
+添加代码
 ```
 bash /home/mtproxy/mtproxy.sh start > /dev/null 2>&1 &
 ```
