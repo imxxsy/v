@@ -1,9 +1,9 @@
 
-###V
+安装V
 ```
 bash <(curl -sSL "https://raw.githubusercontent.com/imxxsy/v2mtp/main/v.sh")
 ```
-###MTP
+安装MTP
 创建程序目录并进入
 ```
 mkdir /home/mtproxy && cd /home/mtproxy
@@ -42,7 +42,7 @@ rm -rf /home/mtproxy
 ```
 vi /etc/rc.local
 ```
-# 添加如下代码
+# 添加代码
 ```
 bash /home/mtproxy/mtproxy.sh start > /dev/null 2>&1 &
 ```
