@@ -4,6 +4,7 @@
 bash <(curl -sSL "https://raw.githubusercontent.com/imxxsy/v2mtp/main/v.sh")
 ```
 安装MTP
+
 创建程序目录并进入
 ```
 mkdir /home/mtproxy && cd /home/mtproxy
