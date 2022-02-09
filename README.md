@@ -2,8 +2,6 @@
 ###V
 ```
 bash <(curl -sSL "https://raw.githubusercontent.com/imxxsy/v2mtp/main/v.sh")
-
-
 ```
 ###MTP
 创建程序目录并进入
@@ -34,13 +32,12 @@ bash mtproxy.sh restart
 
 ####卸载
 
-因为是绿色版卸载极其简单，直接删除程序目录即可；
+因为是绿色版卸载极其简单，直接删除程序目录即可
 ```
 rm -rf /home/mtproxy
 ```
 开机启动
 编辑 /etc/rc.local 开机自启服务文件，将如下代码添加到开机自启脚本中；
-
 # 编辑自启文件
 ```
 vi /etc/rc.local
